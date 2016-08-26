@@ -1,12 +1,14 @@
 {
-  "name": "jasonaramirez",
+  "name": "Learning_Node.JS",
   "version": "1.0.0",
-  "description": "Hello World Program",
-  "main": "index.js",
+  "description": "Learning how to use Node.js",
+  "author": "Jason Ramirez <jp51371@iastate.edu>",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "app.js"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {  "express": "3.2.4"}
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.4.8"
+  }
 }
